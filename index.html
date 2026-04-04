@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>📅 Sistema To Do List</h1>
+
+        <section class="input-section">
+            <input type="text" id="taskInput" placeholder="Digite sua atividade">
+            <select id="periodoInput">
+                <option value="manha">🌅 Manhã</option>
+                <option value="tarde">☀️ Tarde</option>
+                <option value="noite">🌙 Noite</option>
+            </select>
+            <button class="btn-add" onclick="meuApp.adicionar()">Adicionar</button>
+        </section>
+
+        <section class="dashboard">
+            <div class="coluna manha">
+                <h3>Manhã</h3>
+                <ul id="lista-manha"></ul>
+            </div>
+            <div class="coluna tarde">
+                <h3>Tarde</h3>
+                <ul id="lista-tarde"></ul>
+            </div>
+            <div class="coluna noite">
+                <h3>Noite</h3>
+                <ul id="lista-noite"></ul>
+            </div>
+        </section>
+        
+        <p style="text-align: center; margin-top: 20px;">
+            Total de tarefas hoje: <span id="contador">0</span>
+        </p>
+    </main>
+
+    <section id="modalErro" class="modal-overlay">
+        <div class="modal-content">
+            <span class="icon">⚠️</span>
+            <h2>Campo Vazio!</h2>
+            <p>Por favor, digite uma tarefa antes de adicionar.</p>
+            <button onclick="meuApp.fecharModal()">Entendi</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
