@@ -1,9 +1,3 @@
-Para um repositório que você vai expor no LinkedIn, o **README** precisa ser o seu "vendedor silencioso". Ele deve explicar não apenas o que o projeto faz, mas **como** você o construiu tecnicamente.
-
-Aqui está um modelo profissional, estruturado e visualmente atraente:
-
----
-
 # Daily Planner Pro
 
 Um gerenciador de tarefas diário segmentado por períodos (Manhã, Tarde e Noite), construído com foco em **Arquitetura de Objetos** e **Persistência de Dados**.
