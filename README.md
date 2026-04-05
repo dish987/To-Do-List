@@ -37,12 +37,6 @@ O coração da aplicação reside em um objeto literal `meuApp`, que gerencia to
 
 ---
 
-## Demonstração
-
-> **[DICA: Coloque aqui um GIF do seu projeto funcionando ou um link para o vídeo do LinkedIn]**
-
----
-
 ## Como rodar o projeto
 
 1.  Clone este repositório:
