@@ -31,7 +31,7 @@ Este projeto foi desenvolvido para aplicar conceitos avançados de JavaScript pu
 O coração da aplicação reside em um objeto literal `meuApp`, que gerencia todo o ciclo de vida dos dados:
 
 1.  **Encapsulamento:** Toda a lógica (Adição, Remoção e Renderização) está contida dentro do objeto, evitando poluição do escopo global.
-2.  **Fluxo de Dados Unidirecional:** O array `tarefas` é a única "fonte da verdade". Qualquer alteração no dado dispara automaticamente o método `renderizar()`, que sincroniza a interface e o banco de dados.
+2.  **Fluxo de Dados Unidirecional:** O array `tarefas` é a única "fonte". Qualquer alteração no dado dispara automaticamente o método `renderizar()`, que sincroniza a interface e o banco de dados (local Storage).
 3.  **Renderização Condicional:** O sistema distribui as tarefas dinamicamente entre as colunas (Manhã, Tarde ou Noite) com base nas propriedades do objeto de cada tarefa.
 4.  **Tratamento de Erros:** Implementação de um Modal customizado para feedback visual caso o usuário tente inserir dados inválidos.
 
