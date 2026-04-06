@@ -35,7 +35,7 @@ O coração da aplicação reside em um objeto literal `meuApp`, que gerencia to
 
 1.  Clone este repositório:
     ```bash
-    git clone https://github.com/SEU_USUARIO/nome-do-repo.git
+    git clone https://github.com/dish987/To-Do-List.git
     ```
 2.  Abra o arquivo `index.html` em seu navegador.
 3.  *Opcional:* Utilize a extensão **Live Server** no VS Code para uma melhor experiência de desenvolvimento.
